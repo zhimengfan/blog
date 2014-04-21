@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<head>
+<html>
+<head lang="en">
 <meta charset="utf-8">
 <title>关于我(About Me)</title>
 </head>
 
 <body>
+<h1>About Me(关于我)</h1>
 <ul>
 <li>穷学生一个</li>
 <li>伪文艺青年</li>
@@ -12,6 +14,5 @@
 <li>偏执狂，强迫症</li>
 <li>完美主义和理想主义者</li>
 </ul>
-
 </body>
 </html>

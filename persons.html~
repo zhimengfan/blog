@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>LaTeX</title>
 <meta charset="utf-8">
 </head>
 
 <body>
-<h1>人物</h1>
-<hr>
+<h1>Persons(人物)</h1>
 <h2>Terence Tao</h2>
 <aside><img src="terence_tao.jpg" alt="Terence Tao" width=200px></aside>
-<p>中文名：陶哲轩。世界著名数学家，美籍华人，2006年获得数学界最高奖项：Fields 奖，因与英国数学家 Ben Green 合作证明了<q>存在任意长度的素书等差数列</q>。现任教于UCLA。</p>
-<p>Tao 的主要研究领域为实分析，调和分析，数论。并著有<cite> Analysis</cite>,<cite> Introduction to measure theory</cite> 等著作。</p>
+<p>中文名：陶哲轩。世界著名数学家，美籍华人，2006年获得数学界最高奖项：Fields 奖，因与英国数学家 Ben Green 合作证明了<q>存在任意长度的素数等差数列</q>。现任教于UCLA。</p>
+<p>Tao 的主要研究领域为实分析，调和分析，泛函分析，数论。并著有<cite> Analysis</cite>,<cite> Introduction to measure theory</cite> 等著作。</p>
 <p><a href="http://www.math.ucla.edu/~tao/">Tao的个人主页(内部链接多被GFW屏蔽)</a></p>
-<hr>
 
-
+<h2>Grigori Perelman</h2>
+<aside><img src="perelman.jpg" alt="Perelman" width=200px></aside>
+Perelman, 2006年与Tao同时获得Fields奖，但是他拒绝接受该奖。获奖原因：在OA系统 Arxiv上发表3篇文章，解决了彭加莱猜想(Poincaré conjecture),。Perelman 拒绝接受Fields的原因是他在证明过程中使用了另一个美国数学家Hamilton提出的一个理论工具：Ricci flow(里奇流)。不管怎样，Perelman 无疑引起了数学界的轩然大波，无论是他的证明还是他的品德！他的主要研究领域是拓扑学，尤其是世界上数一数二的Ricci flow 专家。他是天才，更是圣人！很多人说Perelman 不如Tao, 我看未必。更何况他们完全是两种不同类型的人，不具有太大的可比性。如果真要比较的话，可以从国际奥数的成绩来看：Perelman 曾经在国际奥数上获得过满分（自然也就是第一名）！而Tao三次参加，最好的成绩也只有第16名。
 </body>
 </html>

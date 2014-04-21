@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LaTeX</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+<h1>
+L<sub>A</sub>T<sub>E</sub>X: 科技排版系统，基于T<sub>E</sub>X.</h1>
+<p>
+关于L<sub>A</sub>T<sub>E</sub>X的相关网站如下：
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/LaTeX">Wikipedia 相关条目</a></li>
+<li><a href="http://www.tug.org">TeX User Group 主页</a></li>
+<li><a href="http://latex-project.org/latex3.html">L<sub>A</sub>T<sub>E</sub>X3 项目主页</a></li>
+</ul>
+相关书籍推荐:
+<ul>
+<li><cite> A Guide To LaTeX, 4th Edition.</cite>, Helmut Kopka, Patrick Daly.</li>
+<li><cite> LaTeX, a document preparation system</cite>, Leslie Lamport.</li>
+<li><cite> The TeXbook</cite>, Donald Knuth.</li>
+<li><cite> The LaTeX Companion, 2nd Edition.</cite>, Frank Mittlebach, Michael Goosen.</li>
+<li><cite> LaTeX 入门</cite>, 刘海洋.</li>
+<li><cite> LaTeX 完全学习指南, 第二版</cite>, 胡伟.</li>
+</ul>
+LaTeX系统(软件):
+<ul>
+<li>TeXLive</li>
+<li>MacTeX</li>
+<li>ProTeX</li>
+<li>MikTeX</li>
+<li>TeXify</li>
+<li>CTeX</li>
+</ul>
+LaTeX 社区网站
+<ul>
+<li><a href="http://tex.stackexchange.com/">tex.stackexchange</a></li>
+<li><a href="http://www.latex-community.org/">latex-community</a></li>
+</ul>
+</body>
+</html>
