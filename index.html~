@@ -19,6 +19,7 @@ background-color:white;
 width:60%;
 margin-left: auto;
 margin-right: auto;
+text-align:center;
 }
 
 </style>
@@ -30,11 +31,12 @@ margin-right: auto;
 <h2><a href="old_day.html">In the good old days(似水流年)</a></h2>
 <h2><a href="wuxia.html">Wuxia(笑傲江湖)</a></h2>
 <h2><a href="on_the_road.html">On the road(在路上)</a></h2>
-<h2><a href="latex.html">L<sub>A</sub>T<sub>E</sub></a></h2>
+<h2><a href="latex.html">L<sub>A</sub>T<sub>E</sub>X</a></h2>
 <h2><a href="math.html">Mathematics(数学)</a></h2>
 <h2><a href="computing.html">Computing(计算)</a></h2>
 <h2><a href="ee.html">EE(电子电气)</a></h2>
 <h2><a href="persons.html">Persons(人物)</a></h2>
+<address>zhimengfan@163.com</address>
 <footer>Copyright &copy; 樊智猛, Al rights reserved</footer>
 </div>
 </body>
