@@ -30,7 +30,6 @@ float:right;
 width:60%;
 margin-left: auto;
 margin-right: 130px;
-margin-top:300px;
 height:100px;
 }
 </style>
@@ -51,7 +50,7 @@ height:100px;
 <footer>Copyright &copy; 樊智猛<br> Al rights reserved</footer>
 </div>
 <div id="text" ,class="txt">
-<p ><b><q>好奇心与专注力，构成了成年人与孩子最本质的差异！</q>&nbsp;&nbsp;&nbsp;&mdash;樊智猛.</b></p>
+<p ><b>Keep curious, Keep concentrated</b></p>
 </div>
 </div>
 </body>
