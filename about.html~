@@ -3,16 +3,79 @@
 <head >
 <meta charset="utf-8">
 <title>关于我(About Me)</title>
+<style>
+body{
+background-color:#edb;
+}
+h1{
+text-align:left;
+}
+div#outline{
+width:25%;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+float:left;
+height:100%;
+}
+
+div#detail{
+text-align:center;
+float:right;
+width:60%;
+margin-left:auto;
+margin-right:100px;
+}
+img{
+float:left;
+margin-right:10px;
+}
+p{
+text-align:left;
+}
+address{
+text-align:left;
+margin-bottom:2%;
+}
+footer{
+text-align:left;
+}
+ul{
+text-align:left;
+}
+</style>
 </head>
 
 <body>
+<div id="outline", class="contents">
+<h1>L O F T</h1>
+<p><a href="about.html">About(关于我)</a></p>
+<p><a href="old_day.html">In the good old days(似水流年)</a></p>
+<p><a href="wuxia.html">Wuxia(笑傲江湖)</a></p>
+<p><a href="on_the_road.html">On the road(在路上)</a></p>
+<p><a href="latex.html">L<sub>A</sub>T<sub>E</sub>X</a></p>
+<p><a href="math.html">Mathematics(数学)</a></p>
+<p><a href="computing.html">Computing(计算)</a></p>
+<p><a href="ee.html">EE(电子电气)</a></p>
+<p><a href="persons.html">Persons(人物)</a></p>
+<address><a href="mailto:zhimengfan@163.com">Email: zhimengfan@163.com</a></address>
+<footer>Copyright &copy; 樊智猛<br> Al rights reserved</footer>
+<p><a href="index.html">Back To Homepage(返回主页)</a></p>
+</div>
+
+<div id="detail",class="inner_content">
 <h1>About Me(关于我)</h1>
+<h2>Who's me?(我是谁)</h2>
 <ul>
-<li>穷学生一个(正是因为穷，所以这个网站暂时挂在GitHub上了，以后再考虑进一步的事情。不管怎么样，在浩瀚的数字海洋中，我有了一个家了！)</li>
+<li>穷学生一个(所以这个网站暂时挂在GitHub上了。不管怎么样，在浩瀚的数字海洋中，我有了一个家了！)</li>
 <li>伪文艺青年</li>
 <li>伪学术青年</li>
 <li>偏执狂，强迫症</li>
 <li>完美主义和理想主义者</li>
 </ul>
+<h2>Why this site?(为什么建这个网站)</h2>
+<p>谁也不想在浩瀚的数字海洋中无家可归，于是我决定给自己建立一个个人主页。同时也可以锻炼一下写网页的技巧。因为在现实生活很少能够找到和自己有共同兴趣和话题的人。对于此，我经常感到失望。我希望能够借助这个网站，将自己想说的，感兴趣的都写在上面，更希望能够吸引到和自己同类的人。上了十多年的学，我自认为自己刻苦学习，还是学到了不少知识，当然，任重道远。在学习的过程中也会遇到很多问题，所以也希望借助这个网站将自己感兴趣的问题和大家一起探讨。还有就是，希望利用这个网站，记录自己过去，现在，和将来的生活中的点点滴滴。我想，最终这个网站肯定会成为一部值得珍藏的画册。总之一句话吧，这既是我生活的一部分，也是我学习的一部分，是我的数字家园。</p>
+<p>主页内容分为两大板块，一个是生活板块，包含<cite>关于我</cite>，<cite>似水流年</cite>，<cite>笑傲江湖</cite>，<cite>在路上</cite> 和 <cite>L<sub>A</sub>T<sub>E</sub>X</cite>等5个生活，业余爱好子板块；以及<cite>数学</cite>，<cite>计算</cite>，<cite>Double E</cite> 和 <cite>人物</cite> 等4个科技子板块，构成了学习板块。</p>
+</div>
 </body>
 </html>
