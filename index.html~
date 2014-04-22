@@ -17,7 +17,7 @@ text-align:center;
 }
 div#main_text{
 background-color:orange;
-width:20%;
+width:30%;
 margin-left: auto;
 margin-right: auto;
 text-align:center;
@@ -32,9 +32,13 @@ margin-left: auto;
 margin-right: 130px;
 height:100px;
 }
+body{
+background-color:#edb;
+}
+
 </style>
 </head>
-<body background="loft.jpg">
+<body>
 <div id="main_text",class="body_text" >
 <h1>L O F T</h1>
 <p><a href="about.html">About(关于我)</a></p>
@@ -50,7 +54,7 @@ height:100px;
 <footer>Copyright &copy; 樊智猛<br> Al rights reserved</footer>
 </div>
 <div id="text" ,class="txt">
-<p ><b>Keep curious, Keep concentrated</b></p>
+<p ><b>Keep curious, Keep concentrated!</b></p>
 </div>
 </div>
 </body>
