@@ -82,7 +82,7 @@ text-align:left;
 <li><cite> LaTeX 入门</cite>, 刘海洋.</li>
 <li><cite> LaTeX 完全学习指南, 第二版</cite>, 胡伟.</li>
 </ul></p>
-<p>LaTeX系统(软件):</p>
+<p>L<sub>A</sub>T<sub>E</sub>X系统(软件):</p>
 <p>
 <ul>
 <li>TeXLive</li>
@@ -92,7 +92,7 @@ text-align:left;
 <li>TeXify</li>
 <li>CTeX</li>
 </ul>
-<p>LaTeX 社区网站</p>
+<p>L<sub>A</sub>T<sub>E</sub>X 社区网站</p>
 <ul>
 <li><a href="http://tex.stackexchange.com/">tex.stackexchange</a></li>
 <li><a href="http://www.latex-community.org/">latex-community</a></li>
