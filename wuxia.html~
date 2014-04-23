@@ -3,11 +3,16 @@
 <head>
 <title>Wuxia</title>
 <meta charset="utf-8">
+<style>
+body{
+background-color:#edb;
+}
+</style>
 </head>
 
 <body>
 <h1>Wuxia(笑傲江湖)</h1>
-每个人都有个武侠梦...
+<p><q>他强任他强，清风拂山岗；他横任他横，明月照大江。</q>&nbsp;&nbsp;&nbsp;&mdash;九阳真经</p>
 </body>
 </html>
 
