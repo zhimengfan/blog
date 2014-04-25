@@ -17,7 +17,7 @@ text-align:left;
 }
 div#main_text{
 /*background-color:orange;*/
-width:25%;
+width:20%;
 margin-left: auto;
 margin-right: auto;
 text-align:center;
@@ -27,7 +27,7 @@ height:100%;
 div#text{
 text-align:center;
 float:right;
-width:60%;
+width:65%;
 margin-left:auto;
 margin-right:100px;
 }
@@ -53,10 +53,10 @@ margin-bottom:2%;
 <p><a href="ee.html">EE(电子电气)</a></p>
 <p><a href="persons.html">Persons(人物)</a></p>
 <address><a href="mailto:zhimengfan@163.com">Email: zhimengfan@163.com</a></address>
-<footer>Copyright &copy; 樊智猛<br> Al rights reserved<br> Initiated since 2014-04-21</footer>
+<footer>Copyright &copy; 樊智猛<br> All rights reserved<br> Initiated since 2014-04-21</footer>
 </div>
 <div id="text" ,class="txt">
-<img src="typo.jpg", alt="",width=100%>
+<img src="athens.jpeg" alt="" width=100%>
 </div>
 </div>
 </body>
