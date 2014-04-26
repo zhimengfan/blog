@@ -3,6 +3,11 @@
 <head>
 <title>On the road</title>
 <meta charset="utf-8">
+<style>
+body{
+background-color:#edb;
+}
+</style>
 </head>
 
 <body>
