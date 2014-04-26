@@ -7,12 +7,94 @@
 body{
 background-color:#edb;
 }
+h1{
+text-align:left;
+}
+div#outline{
+width:25%;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+float:left;
+height:100%;
+}
+
+div#detail{
+text-align:center;
+float:right;
+width:60%;
+margin-left:auto;
+margin-right:100px;
+}
+img{
+float:left;
+margin-right:10px;
+}
+p{
+text-align:left;
+}
+address{
+text-align:left;
+margin-bottom:2%;
+}
+footer{
+text-align:left;
+}
 </style>
 </head>
 
 <body>
+<div id="outline", class="contents">
+<h1>L O F T</h1>
+<p><a href="about.html">About(关于我)</a></p>
+<p><a href="old_day.html">In the good old days(似水流年)</a></p>
+<p><a href="wuxia.html">Wuxia(笑傲江湖)</a></p>
+<p><a href="on_the_road.html">On the road(在路上)</a></p>
+<p><a href="latex.html">L<sub>A</sub>T<sub>E</sub>X</a></p>
+<p><a href="math.html">Mathematics(数学)</a></p>
+<p><a href="computing.html">Computing(计算)</a></p>
+<p><a href="ee.html">EE(电子电气)</a></p>
+<p><a href="persons.html">Persons(人物)</a></p>
+<address><a href="mailto:zhimengfan@163.com">Email: zhimengfan@163.com</a></address>
+<footer>Copyright &copy; 樊智猛<br> All rights reserved</footer>
+<p><a href="index.html">Back To Homepage(返回主页)</a></p>
+</div>
+
+<div id="detail",class="inner_content">
 <h1>Wuxia(笑傲江湖)</h1>
 <p><q>鱼传尺素， 红袖添香。</q>&nbsp;&nbsp;&nbsp;&mdash;楚留香传奇</p>
+<p><b>《香剑吟》</b></p>
+<p>
+<cite>那一剑刺得太温柔 <br>
+有痛的感觉<br>   
+却找不到伤口<br>
+回眸旧日的阁楼伊人痴等候 <br> 
+雨中倩影已消瘦<br>    
+逃不脱别恨离愁 <br> 
+记忆变腐朽 <br>
+重新解释的理由 <br> 
+是红尘看不透  <br>
+借酒消愁的念头  <br>
+只能放开手 <br>
+只身闯入身不由己的春秋  <br>
+湖畔落日踏水流  <br>
+孤剑一柄诉怨恨  <br>
+江山如画却独爱美人  <br>
+凄惨切切风雨行  <br>
+香消玉殒何人问  <br>
+且等来世共享天伦  <br>
+哪天一去不回头  <br>
+我何忍怪你无情远走  <br>
+回眸消失的阁楼 <br>
+伊人痴等候    <br>
+古今英雄更爱美人 <br>
+侠骨柔肠恋红尘  <br>
+今生不能纵情相随<br>  
+来世共享天伦 <br>
+那一剑刺得太温柔...
+</cite></p>
+</div>
+
 </body>
 </html>
 
