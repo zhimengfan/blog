@@ -22,6 +22,7 @@
 <footer>Copyright &copy; 樊智猛<br> All rights reserved<br> Initiated since 2014-04-21</footer>
 </div>
 
+<div id="contents" ,class="contents_">
 <h1>On the road(在路上)</h1>
 <ul>
 <li>南昌</li>
@@ -30,5 +31,6 @@
 <li>扬州</li>
 </ul>
 Under construction...
+</div>
 </body>
 </html>
