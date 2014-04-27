@@ -27,9 +27,9 @@ height:100%;
 div#text{
 text-align:center;
 float:right;
-width:60%;
+width:65%;
 margin-left:auto;
-margin-right:100px;
+margin-right:auto;
 }
 body{
 background-color:#edb;
@@ -37,6 +37,15 @@ background-color:#edb;
 address{
 text-align:left;
 margin-bottom:2%;
+}
+cite{
+font-family:KaiTi;
+}
+q{
+font-family:KaiTi;
+}
+quote{
+font-family:KaiTi;
 }
 </style>
 </head>
@@ -57,7 +66,7 @@ margin-bottom:2%;
 </div>
 <div id="text" ,class="txt">
 <img src="athens.jpeg" alt="" width=100%>
-<p style="text-align:center"><q>Ne pleure pas, Alfred ! J'ai besoin de tout mon courage pour mourir à vingt ans ! <br>(Don't cry, Alfred! I need all my courage to die at twenty.)</q> &nbsp;&nbsp;&nbsp;&mdash;Évariste Galois</p>
+<p style="text-align:center"><q>我们是孩子，但我们精力充沛，勇往直前！</q> &nbsp;&nbsp;&nbsp;&mdash;Évariste Galois</p>
 </div>
 </body>
 </html>

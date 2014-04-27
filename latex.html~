@@ -44,6 +44,8 @@ ul{
 text-align:left;
 }
 </style>
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 
 <body>
@@ -67,7 +69,7 @@ text-align:left;
 <h1> L<sub>A</sub>T<sub>E</sub>X </h1>
 <h2>L<sub>A</sub>T<sub>E</sub>X: 科技排版系统，基于T<sub>E</sub>X.</h2>
 <p>关于L<sub>A</sub>T<sub>E</sub>X的相关网站如下：</p>
-<<ul>
+<ul>
 <li><a href="http://en.wikipedia.org/wiki/LaTeX">Wikipedia 相关条目</a></li>
 <li><a href="http://www.tug.org">TeX Users Group 主页</a></li>
 <li><a href="http://latex-project.org/latex3.html">L<sub>A</sub>T<sub>E</sub>X3 项目主页</a></li>
@@ -98,6 +100,20 @@ text-align:left;
 <li><a href="http://www.latex-community.org/">latex-community</a></li>
 <li><a href="http://bbs.ctex.org/">中文TeX论坛</a></li>
 </ul>
+<h2>L<sub>A</sub>T<sub>E</sub>X 样本(同时作为MathJax 测试之用)</h2>
+<p>Gamma 函数</p>
+\[\int_0^\infty \mathrm{e}^{-t}t^{\alpha-1}\mathrm{d}t=\Gamma({\alpha})\]
+<p> Schwarz 不等式</p>
+\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
+<p>Maxwell 方程组</p>
+\begin{aligned}
+\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\   \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
+\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
+\nabla \cdot \vec{\mathbf{B}} & = 0 \end{aligned}
+<p>连分数</p>
+\[\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+{1+\frac{e^{-8\pi}} {1+\ldots} } } }\]
 </div>
 </body>
 </html>
