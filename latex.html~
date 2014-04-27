@@ -3,53 +3,13 @@
 <head>
 <title>LaTeX</title>
 <meta charset="utf-8">
-<style>
-body{
-background-color:#edb;
-}
-h1{
-text-align:left;
-}
-div#outline{
-width:25%;
-margin-left: auto;
-margin-right: auto;
-text-align:center;
-float:left;
-height:100%;
-}
-
-div#detail{
-text-align:center;
-float:right;
-width:60%;
-margin-left:auto;
-margin-right:100px;
-}
-img{
-float:left;
-margin-right:10px;
-}
-p{
-text-align:left;
-}
-address{
-text-align:left;
-margin-bottom:2%;
-}
-footer{
-text-align:left;
-}
-ul{
-text-align:left;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 <script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 
 <body>
-<div id="outline", class="contents">
+<div id="navigator", class="navigator_">
 <h1>L O F T</h1>
 <p><a href="about.html">About(关于我)</a></p>
 <p><a href="old_day.html">In the good old days(似水流年)</a></p>
@@ -100,7 +60,7 @@ text-align:left;
 <li><a href="http://www.latex-community.org/">latex-community</a></li>
 <li><a href="http://bbs.ctex.org/">中文TeX论坛</a></li>
 </ul>
-<h2>L<sub>A</sub>T<sub>E</sub>X 样本(同时作为MathJax 测试之用)</h2>
+<h2>L<sub>A</sub>T<sub>E</sub>X 数学公式样本(同时作为MathJax 测试之用)</h2>
 <p>Gamma 函数</p>
 \[\int_0^\infty \mathrm{e}^{-t}t^{\alpha-1}\mathrm{d}t=\Gamma({\alpha})\]
 <p> Schwarz 不等式</p>

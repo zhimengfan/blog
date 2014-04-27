@@ -3,54 +3,10 @@
 <head>
 <title>loft</title>
 <meta charset="utf-8">
-<style>
-h1{
-text-transform:uppercase;
-font-size:30px;
-text-align:left;
-}
-p{
-text-align:left;
-}
-footer{
-text-align:left;
-}
-div#main_text{
-/*background-color:orange;*/
-width:25%;
-margin-left: auto;
-margin-right: auto;
-text-align:center;
-float:left;
-height:100%;
-}
-div#text{
-text-align:center;
-float:right;
-width:65%;
-margin-left:auto;
-margin-right:auto;
-}
-body{
-background-color:#edb;
-}
-address{
-text-align:left;
-margin-bottom:2%;
-}
-cite{
-font-family:KaiTi;
-}
-q{
-font-family:KaiTi;
-}
-quote{
-font-family:KaiTi;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="main_text",class="body_text" >
+<div id="navigator",class="navigator_" >
 <h1>L O F T</h1>
 <p><a href="about.html">About(关于我)</a></p>
 <p><a href="old_day.html">In the good old days(似水流年)</a></p>
@@ -64,7 +20,7 @@ font-family:KaiTi;
 <address><a href="mailto:zhimengfan@163.com">Email: zhimengfan@163.com</a></address>
 <footer>Copyright &copy; 樊智猛<br> All rights reserved<br> Initiated since 2014-04-21</footer>
 </div>
-<div id="text" ,class="txt">
+<div id="contents" ,class="content_">
 <img src="athens.jpeg" alt="" width=100%>
 <p style="text-align:center"><q>我们是孩子，但我们精力充沛，勇往直前！</q> &nbsp;&nbsp;&nbsp;&mdash;Évariste Galois</p>
 </div>
