@@ -9,18 +9,30 @@
 <body>
 <div id="navigator",class="navigator_" >
 <h1>L O F T</h1>
-<p><a href="about.html">About(关于我)</a></p>
-<p><a href="old_day.html">In the good old days(似水流年)</a></p>
-<p><a href="wuxia.html">Wuxia(笑傲江湖)</a></p>
-<p><a href="on_the_road.html">On the road(在路上)</a></p>
-<p><a href="latex.html">L<sub>A</sub>T<sub>E</sub>X</a></p>
-<p><a href="math.html">Mathematics(数学)</a></p>
-<p><a href="computing.html">Computing(计算)</a></p>
-<p><a href="ee.html">Double E(电气工程)</a></p>
-<p><a href="persons.html">Persons(人物)</a></p>
-<p><img src="email.gif" alt="" width=150px ></p><br><br>
-<footer>Copyright &copy; 樊智猛<br> All rights reserved<br>Since 2014-04-21</footer>
-<p><a href="index.html">Back to Homepage(返回主页)</a></p>
+<table>
+<tr>
+<td><b><a href="about.html">About(关于我)</a></b></td>
+</tr>
+<tr>
+<td><b><a href="old_day.html">In the good old days(似水流年)</b></td>
+</tr>
+<tr>
+<td><b><a href="wuxia.html">Wuxia(笑傲江湖)</a></b></td>
+</tr>
+<tr>
+<td>
+<b><a href="on_the_road.html">On the road(在路上)</a></b>
+</td>
+</tr>
+<tr><td><b><a href="latex.html">L<sub>A</sub>T<sub>E</sub>X</a></b></td></tr>
+<tr><td><b><a href="math.html">Mathematics(数学)</a></b></td></tr>
+<tr><td><b><a href="computing.html">Computing(计算)</a></b></td></tr>
+<tr><td><b><a href="ee.html">Double E(电气工程)</a></b></td></tr>
+<tr><td><b><a href="persons.html">Persons(人物)</a></b></td></tr>
+<tr><td><img src="email.gif" alt="" width=150px style="float:none"></td></tr>
+<tr><td><b>Copyright &copy; 樊智猛<br> All rights reserved<br>Since 2014-04-21</b></td></tr>
+<tr><td><b><a href="index.html">Back to Homepage(返回主页)</b></td></tr>
+</table>
 </div>
 
 <div id="contents" ,class="contents_">
@@ -59,6 +71,16 @@
 <p>拜月最后被打败了，在最后一刻，他感受到了爱的存在，流出了一滴泪。其实他也是很值得同情的人，因为这一切其实并不完全都他的错，他只是被仇恨和童年的阴影蒙蔽了眼睛和心智。纵观整个故事，其实并没有反派人物与正派人物之分，所有人都是好人，都值得同情，因为他们都受过伤害。每个人有他/她的宿命、责任、义务、乃至最终的归宿。一切都是冥冥之中早已注定，不可更改。就像蜀山剑侠所说的那样。整个故事闹来闹去，其实都是一场空，因为所有人都是受害者，这也注定了这个故事是一个悲剧。</p>
 
 <p>仙剑奇侠传，是一个童话，但却是一个悲剧童话，并不像安徒生童话末尾的那句：<cite>王子和公主从此过上了幸福的生活...</cite></p>
+<table>
+<tr> 
+<th>heading1</th>
+<th>heading2</th>
+</tr>
+<tr>
+<td>a</td>
+<td>b</td>
+</tr>
+</table>
 </div>
 
 </body>
