@@ -45,8 +45,11 @@ text-align:left;
 }
 img{
 float:left;
-margin-right:2px;
+margin-right:3px;
 margin-bottom:2px;
+}
+tr{
+height:40px;
 }
 th{
 border-style:solid;
@@ -55,7 +58,15 @@ border-width:thin;
 td{
 border-style:solid;
 border-width:thin;
+/*border-radius:1em;*/
+/*box-shadow:3px 3px #666;*/
+/*backgr
+/*ound-color:yellow;*/
 }
+td:hover{
+background-color:#orange;
+}
+
 a:hover{
 color:blue;
 background-color:#ffa500;

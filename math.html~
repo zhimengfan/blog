@@ -12,18 +12,30 @@
 <body>
 <div id="navigator",class="navigator_" >
 <h1>L O F T</h1>
-<p><a href="about.html">About(关于我)</a></p>
-<p><a href="old_day.html">In the good old days(似水流年)</a></p>
-<p><a href="wuxia.html">Wuxia(笑傲江湖)</a></p>
-<p><a href="on_the_road.html">On the road(在路上)</a></p>
-<p><a href="latex.html">L<sub>A</sub>T<sub>E</sub>X</a></p>
-<p><a href="math.html">Mathematics(数学)</a></p>
-<p><a href="computing.html">Computing(计算)</a></p>
-<p><a href="ee.html">Double E(电气工程)</a></p>
-<p><a href="persons.html">Persons(人物)</a></p>
-<p><img src="email.gif" alt="" width=150px ></p><br><br>
-<footer>Copyright &copy; 樊智猛<br> All rights reserved<br>Since 2014-04-21</footer>
-<p><a href="index.html">Back to Homepage(返回主页)</a></p>
+<table>
+<tr>
+<td><b><a href="about.html">About(关于我)</a></b></td>
+</tr>
+<tr>
+<td><b><a href="old_day.html">In the good old days(似水流年)</b></td>
+</tr>
+<tr>
+<td><b><a href="wuxia.html">Wuxia(笑傲江湖)</a></b></td>
+</tr>
+<tr>
+<td>
+<b><a href="on_the_road.html">On the road(在路上)</a></b>
+</td>
+</tr>
+<tr><td><b><a href="latex.html">L<sub>A</sub>T<sub>E</sub>X</a></b></td></tr>
+<tr><td><b><a href="math.html">Mathematics(数学)</a></b></td></tr>
+<tr><td><b><a href="computing.html">Computing(计算)</a></b></td></tr>
+<tr><td><b><a href="ee.html">Double E(电气工程)</a></b></td></tr>
+<tr><td><b><a href="persons.html">Persons(人物)</a></b></td></tr>
+<tr><td><img src="email.gif" alt="" width=150px style="float:none"></td></tr>
+<tr><td><b>Copyright &copy; 樊智猛<br> All rights reserved<br>Since 2014-04-21</b></td></tr>
+<tr><td><b><a href="index.html">Back to Homepage(返回主页)</b></td></tr>
+</table>
 </div>
 
 <div id="contents" ,class="contents_">
