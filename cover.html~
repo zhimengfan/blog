@@ -10,7 +10,7 @@ float:center;
 margin-left: 28%;
 margin-right: auto;
 text-align:center;
-margin-top:2%;
+margin-top:5%;
 }
 img{
 float:left;
