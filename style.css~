@@ -64,7 +64,7 @@ border-width:thin;
 /*ound-color:yellow;*/
 }
 td:hover{
-background-color:#orange;
+background-color:orange;
 }
 
 a:hover{

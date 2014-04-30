@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>loft</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+<div id="navigator",class="navigator_" >
+<h1>L O F T</h1>
+<table>
+<tr>
+<td><b><a href="../about.html">About(关于我)</a></b></td>
+</tr>
+<tr>
+<td><b><a href="../old_day.html">In the good old days(似水流年)</b></td>
+</tr>
+<tr>
+<td><b><a href="../wuxia.html">Wuxia(笑傲江湖)</a></b></td>
+</tr>
+<tr>
+<td>
+<b><a href="../on_the_road.html">On the road(在路上)</a></b>
+</td>
+</tr>
+<tr><td><b><a href="../latex.html">L<sub>A</sub>T<sub>E</sub>X</a></b></td></tr>
+<tr><td><b><a href="../math.html">Mathematics(数学)</a></b></td></tr>
+<tr><td><b><a href="../computing.html">Computing(计算)</a></b></td></tr>
+<tr><td><b><a href="../ee.html">Double E(电气工程)</a></b></td></tr>
+<tr><td><b><a href="../persons.html">Persons(人物)</a></b></td></tr>
+<tr><td><img src="../email.gif" alt="" width=150px style="float:none;margin-bottom:0px"></td></tr>
+<tr><td><b>Copyright &copy; 樊智猛<br> All rights reserved<br>Since 2014-04-21</b></td></tr>
+<tr><td><b><a href="../index.html">Back to Homepage(返回主页)</b></td></tr>
+</table>
+</div>
+
+
+<div id="contents" ,class="contents_">
+<h2>怎么读App?</h2>
+<p>2014/04/30</p>
+<p>一年多以前在电视上看到一个主持人在主持某节目时提到手机应用，主持人将<b>App</b>读成了<b>/ei-pi-pi/</b>，这是我第一次听到别人读[ei-pi-pi]。后来，随着Andriod和iOS的广泛普及和快速发展，很多人都知道App是什么：App就是手机应用(Mobile Application)。但是非常遗憾的是，几乎所有人都将App读成了[ei-pi-pi]，也就是按三个字母分别发音。事实上，我遇到的每一个人都是这么读的，然而实际上严格来讲这是错误的。今天想到这个问题是因为刚好今天又遇到一个人犯了同样的错误，因此想这这个机会澄清一下这件事情。</p>
+<p>根据牛津字典的解释<a href="http://www.oxforddictionaries.com/definition/english/app?q=App">(http://www.oxforddictionaries.com/definition/english/app?q=App)</a>，App的发音应该是 <b>/ap/</b>，这也是很合理的，因为它就是Application 的缩写。国人犯这个错误就跟他们把<b>B2C</b>读成 <b>[B 二 C]</b> 是类似的: 不假思索和盲从，导致以讹传讹。
+</p>
+<p>大数据时代，人们确实可以轻松、快捷的获取各种信息，而且绝大多数都是免费的。但是，客观来讲，互联网上的海量数据其实绝大部分都是垃圾数据，高质量的数据微乎其微。比如我所视作高质量的互联网资源有以下几个（不完全）：
+<ul>
+<li>Wikipedia</li>
+<li>Stackexchange</li>
+<li>Oxford dictionary(Online)</li>
+<li>Wiktionary</li>
+<li>Slide share(已被墙)</li>
+<li>Wolfram alpha</li>
+<li>...</li>
+</ul>
+<p>反观国内的一些互联网公司，几乎都是一味地迎合国人的低级网络趣味，毫无自己的风格可言。究其内容，更是目不忍视。当然，也有例外，像豆瓣，我觉得就做得不错，但是绝大多数都是在不停地向我们提供各种虚假不可靠的数据，他们丰厚的盈利其实是建立在愚弄国民的基础之上的。正是这个原因，我一年多以前就已经和各大门户网站告别了，除了还在使用网易的邮箱。</p>
+<p>大数据时代，我们需要更多的耐心来思考，而不是盲从。</p>
+</div>
+</body>
+</html>
