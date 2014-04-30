@@ -38,7 +38,7 @@
 </div>
 <div id="contents" ,class="contents_">
 <h1>Computing(计算)</h1>
-<p >If \(a, b \in \mathbb{N^{+}}, a\gt b\), then gcd(a,b)=gcd(b,(a mod b)) </p>
+<p ><q>If \(a, b \in \mathbb{N^{+}}, a\gt b\), then gcd(a,b)=gcd(b,(a mod b)) </q></p>
 <p style="text-align:right">&mdash;Euclid</p>
 <p>
 <ul>
