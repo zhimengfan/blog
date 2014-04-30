@@ -4,6 +4,8 @@
 <title>Computing</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 
 <body>
@@ -36,9 +38,14 @@
 </div>
 <div id="contents" ,class="contents_">
 <h1>Computing(计算)</h1>
+<p >If \(a, b \in \mathbb{N^{+}}, a\gt b\), then gcd(a,b)=gcd(b,(a mod b)) </p>
+<p style="text-align:right">&mdash;Euclid</p>
 <p>
 <ul>
-<li><a href="computing/app.html">怎么读App?</a></p>
+<li><a href="computing/app.html">怎么读App?</a></li>
+</ul>
+
+</p>
 </div>
 </body>
 </html>
