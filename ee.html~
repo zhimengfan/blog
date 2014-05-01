@@ -4,6 +4,8 @@
 <title>EE</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 
 <body>
@@ -36,8 +38,8 @@
 </div>
 <div id="contents" ,class="contents_">
 <h1>Double E(电气工程)</h1>
-<p><q>Radar, origin: <b>Ra</b>dio <b>D</b>etection <b>A</b>nd <b>R</b>ange</q></p>
-<p style="text-align:right">&mdash;Oxford dictionary</p>
+<p><q>\(X(f)=\int_{-\infty}^\infty x(t)\mathrm{e}^{-j2\pi f t}\mathrm{d}t\), \(\ \ x(t)=\int_{-\infty}^\infty X(f)\mathrm{e}^{j2\pi f t}\mathrm{d}f\)</q></p>
+<p style="text-align:right">&mdash;Joseph Fourier</p>
 Under construction...
 </div>
 </body>
