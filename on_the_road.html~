@@ -31,12 +31,14 @@
 <tr><td><b><a href="persons.html">Persons(人物)</a></b></td></tr>
 <tr><td><img src="email.gif" alt="" width=150px style="float:none;margin-bottom:0px"></td></tr>
 <tr><td><b>Copyright &copy; 樊智猛<br> All rights reserved<br>Since 2014-04-21</b></td></tr>
-<tr><td><b><a href="index2.html">Back to Homepage(返回主页)</b></td></tr>
+<tr><td><b><a href="index.html">Back to Homepage(返回主页)</b></td></tr>
 </table>
 </div>
 
 <div id="contents" ,class="contents_">
 <h1>On the road(在路上)</h1>
+<p><q>读万卷书，行万里路，有耀自他，我得其助</q><p>
+<p style="text-align:right">&mdash;[清] 梁绍壬《两般秋雨庵随笔》</p>
 <ul>
 <li>南昌</li>
 <li>上海</li>
