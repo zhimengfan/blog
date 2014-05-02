@@ -27,7 +27,7 @@ border-style:none;
 background-color:#d8bfd8;
 box-shadow:3px 3px #666;
 border-radius:1em;
-height:80px;
+height:90px;
 }
 
 h1{
