@@ -24,10 +24,11 @@
 
 
 <div id="contents" ,class="contents_">
-<h1>大浪淘沙</h1>
+<h1>大浪淘沙</h>
+<div id="motto", class="motto_">
 <p><q>If I have seen further it is by standing on the shoulders of giants.</q></p>
 <p style="text-align:right">&mdash;Isaac Newton</p>
-<hr>
+</div>
 <h2>Terence Tao</h2>
 <p><img src="terence_tao.jpg" alt="Terence Tao" width=100px></p>
 <p>中文名：陶哲轩。世界著名数学家，美籍华人，2006年获得数学界最高奖项：Fields 奖，因与英国数学家 Ben Green 合作证明了<q>存在任意长度的素数等差数列</q>。现任教于UCLA。

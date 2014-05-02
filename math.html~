@@ -25,7 +25,8 @@
 </div>
 
 <div id="contents" ,class="contents_">
-<h1>Mathematics(数学)</h1>
+<h1>业余数学</h1>
+<div id="motto", class="motto_">
 <p><q>Let \(X=\{Y\ |Y\ \mathrm{is\ a\ set}, Y\not\in Y\}\), then \(X\in X\) or \(X\not\in X\)?</q></p>
 <p style="text-align:right">&mdash;Cantor</p>
 <ul>
