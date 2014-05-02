@@ -23,7 +23,7 @@
 </div>
 
 <div id="contents", class="contents_">
-<h1>关于我</h1>
+<h1>关于本站</h1>
 <h2>我是谁</h2>
 <ul>
 <li>穷学生一个</li>
@@ -39,7 +39,7 @@
 <p>主页内容分为两大板块，一个是生活板块，包含<cite>关于本站</cite>，<cite>似水流年</cite>，<cite>笑傲江湖</cite>，<cite>行者无疆</cite> 和 <cite>L<sub>A</sub>T<sub>E</sub>X</cite> 等5个生活子板块；以及<cite>业余数学</cite>，<cite>计算科学</cite>，<cite>电气工程</cite> 和 <cite>大浪淘沙</cite> 等4个科技子板块。网站初创，随着时间推移，形式和具体的结构可能会有所改动，但是建站的初衷是不会变的。</p>
 
 
-<h2>Site Log(本站纪事)</h2>
+<h2>本站纪事</h2>
 <ul>
 <li>2014/04/21，在GitHub 上搭建网站，并确立网站基本构架和风格定位。</li>
 <li>2014/04/23，添加少量文章</li>
