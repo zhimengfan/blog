@@ -9,11 +9,11 @@
 </head>
 
 <body>
-<div id="navigator",class="navigator_" >
+<div id="navigator" class="navigator_" >
 <table align="center">
 <tr>
 <td><b><a href="about.html">关于本站</a></b></td>
-<td><b><a href="old_day.html">似水流年</b></td>
+<td><b><a href="old_day.html">似水流年</a></b></td>
 <td><b><a href="wuxia.html">笑傲江湖</a></b></td>
 <td><b><a href="on_the_road.html">行者无疆</a></b></td>
 <td><b><a href="latex.html">L<sub>A</sub>T<sub>E</sub>X</a></b></td>
@@ -21,14 +21,21 @@
 <td><b><a href="computing.html">计算科学</a></b></td>
 <td><b><a href="ee.html">电气工程</a></b></td>
 <td><b><a href="persons.html">大浪淘沙</a></b></td>
+</tr>
 </table>
 </div>
-<div id="contents" ,class="contents_">
+
+<div id="contents"  class="contents_">
 <h1>电气工程</h1>
+
+<div id="motto", class="motto_">
 <p><q>\(X(f)=\int_{-\infty}^\infty x(t)\mathrm{e}^{-j2\pi f t}\mathrm{d}t\), \(\ \ x(t)=\int_{-\infty}^\infty X(f)\mathrm{e}^{j2\pi f t}\mathrm{d}f.\)</q></p>
 <p style="text-align:right">&mdash;Joseph Fourier</p>
-Under construction...
 </div>
+
+<p style="text-align:center">Under construction...</p>
+</div>
+
 <footer>
 <p style="text-align:center">Copyright &copy; 樊智猛, All rights reserved. <a href="index.html">返回首页</a></p>
 </footer>

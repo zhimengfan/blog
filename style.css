@@ -12,7 +12,7 @@ margin-right:auto;
 }
 
 div#contents{
-text-align:center;
+text-align:justify;
 float:center;
 width:65%;
 margin-top:10px;
@@ -34,9 +34,10 @@ h1{
 font-size:30px;
 text-align:left;
 }
-p{
-text-align:left;
+h2{
+text-align:center;
 }
+
 footer{
 text-align:center;
 }
