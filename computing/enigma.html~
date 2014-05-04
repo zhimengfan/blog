@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>loft</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+<div id="navigator",class="navigator_" >
+<table align="center">
+<tr>
+<td><b><a href="../about.html">关于本站</a></b></td>
+<td><b><a href="../old_day.html">似水流年</b></td>
+<td><b><a href="../wuxia.html">笑傲江湖</a></b></td>
+<td><b><a href="../on_the_road.html">行者无疆</a></b></td>
+<td><b><a href="../latex.html">L<sub>A</sub>T<sub>E</sub>X</a></b></td>
+<td><b><a href="../math.html">业余数学</a></b></td>
+<td><b><a href="../computing.html">计算科学</a></b></td>
+<td><b><a href="../ee.html">电气工程</a></b></td>
+<td><b><a href="../persons.html">大浪淘沙</a></b></td>
+</table>
+</div>
+
+
+<div id="contents" ,class="contents_">
+<h2>Crack of Enigma: 二战时期德军密码系统之破译</h2>
+<p style="text-align:right">2014/05/03</p>
+关于第二次世界大战(WWII)，估计每个人都知道它的大致历史线索。但是，如果说有一个人，他让二战提前一年结束，挽回了几十万人的性命，这恐怕就不是妇孺皆知的故事了。那么这个人究竟是谁，在二战中扮演了怎样的角色呢？ 他就是计算机科学先驱，英国数学家，计算机科学家Alan Turing。</p>
+
+<p>Alan Turing(1912-1954)毕业于剑桥大学，研究数理逻辑与计算理论，提出了著名的计算机
+</div>
+</body>
+</html>
