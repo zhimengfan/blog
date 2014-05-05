@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<div id="navigator",class="navigator_" >
+<div id="navigator" class="navigator_" >
 <table align="center">
 <tr>
 <td><b><a href="../about.html">关于本站</a></b></td>
@@ -23,7 +23,7 @@
 </table>
 </div>
 
-<div id="contents" ,class="contents_">
+<div id="contents"  class="contents_">
 <h2>仙剑奇侠传 I</h2>
 <p style="text-align:right"> 2014/04/27</p>
 <img src="xianjian2.jpg" alt="" width=200px>
