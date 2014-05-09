@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pi</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css">
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+
+<body>
+<div id="navigator" class="navigator_" >
+<table align="center">
+<tr>
+<td><b><a href="../about.html">关于本站</a></b></td>
+<td><b><a href="../old_day.html">似水流年</a></b></td>
+<td><b><a href="../wuxia.html">笑傲江湖</a></b></td>
+<td><b><a href="../on_the_road.html">闲情偶寄</a></b></td>
+<td><b><a href="../latex.html">排版艺术</a></b></td>
+<td><b><a href="../math.html">数学之美</a></b></td>
+<td><b><a href="../computing.html">计算科学</a></b></td>
+<td><b><a href="../ee.html">技术掠影</a></b></td>
+<td><b><a href="../persons.html">他山之石</a></b></td>
+</tr>
+</table>
+</div>
+
+<div id="contents" ,class="contents_">
+<h2>\(\pi\)，优雅的证明</h2>
+<p>自从古希腊哲学家和数学家毕达哥拉斯(Pythagoras)发现边长为1的正方形的对角线的长度(\(\sqrt{2}\))不能用有理数(Rational number)来表示之后，人们开始意识到无理数(Irrational number)的存在。事实上，尽管违反人们的直觉，无理数要比有理数多得多。更有趣的是，无理数中的超越数竟然比代数无理数和有理数的总个数还多得多，这一点可以用康托的对角线法则来证明：超越数是不可数的，而代数数(包括有理数和代数的无理数)是可数的。有理数和无理数，或者说代数数和超越数，它们合在一起，构成了整个实数集。</p>
+
+<p>昨天在查资料的时候意外的发现了一个证明\(\pi\)是无理数的一个简洁而又优美的证明，在这里与大家一起分享一下。</p>
+<p>证明如下：</p>
+<p>假设\(\pi\)可以表示为无理数，我们把它写成既约的形式：\(\pi=\frac{a}{b}\)，gcd(a,b)=1。此外，构造一个函数
+\[
+f(x)=\frac{x^n(a-bx)^n}{n!}.
+\]
+记
+\[F(x)=f(x)-f^{(2)}(x)+f^{(4)}(x)-\cdots+(-1)^nf^{(2n)}(x),\]
+不难验证的是，
+\[f(x)=f(\frac{a}{b}-x).\]
+于是有，
+\[f(0)=f(\pi),
+\]
+由于\(f(x)\)的最低项次数为\(n\)，因此可以看出\(f(0)=f(\pi)\in\mathbb{Z}\)。
+接下来，
+\[
+\frac{d}{dx}\{F'(x)\sin(x)-F(x)\cos(x)\}=F''(x)\sin(x)+F(x)\sin(x)=f(x)\sin(x).
+\]
+对上式在\([0,\pi]\)区间积分，
+\[
+\int_0^{\pi}f(x)\sin(x)\mathrm{d}x=[F'(x)\sin(x)-F(x)\cos(x)]|_0^\pi=F(0)+F(\pi).
+\]
+由于\(F(x)\)中的每一项在0和\(\pi\)的取值都为整数，可知\(F(0)+F(\pi)\)也是一个整数。
+但是，对于\(0\lt x\lt \pi,\ 0\lt\sin(x)\lt 1\)，我们有
+\[
+0\lt f(x)\sin(x)\lt\frac{\pi^n a^n}{n!}.
+\]
+只要我们让n足够大，就可以让\(f(x)\sin(x)\)足够小，从而让它的积分任意小。选择足够大的n，可以保证\(F(0)+F(\pi)\lt 1\)。</p>
+<p>于是我们得出了矛盾，这个矛盾证明了\(\pi\)是无理数。\(\Box\)</p>
+<p>这个证明看上去每一步似乎都是很平常的，那么关键的步骤在哪里呢？ 依我自己的看法，得出矛盾最重要的是在最后，\(\sin(x)\)在\([0,\pi]\)之间是有界并且非负的，并且阶乘比指数增长的更快这两点上面。当然，两个函数的构造更是神来之笔。</p>
+</div>
+</body>
+</html>
+

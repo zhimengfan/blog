@@ -26,13 +26,14 @@
 </div>
 
 <div id="contents" class="contents_">
-<h1>业余数学</h1>
+<h1>数学之美</h1>
 <div id="motto" class="motto_">
 <p><q>Let \(X=\{Y\ |Y\ \mathrm{is\ a\ set}, Y\not\in Y\}\), then \(X\in X\) or \(X\not\in X\)?</q></p>
 <p style="text-align:right">&mdash;Cantor</p>
 </div>
 <ul>
 <li><a href="math/peano.html">皮亚诺公理：现代数学的基石</a></li>
+<li><a href="/math/pi.html">\(\pi\)，优雅的证明</a></li>
 </ul>
 
 </div>
