@@ -4,6 +4,11 @@
 <title>loft</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
+<style>
+div#contents{
+width:62%;
+}
+</style>
 </head>
 <body>
 
@@ -23,8 +28,8 @@
 </div>
 
 
-<div id="contents" class="contents_" style="border-style:none; padding:0px">
-<img src="athens.jpeg" alt="" width=100% style="float:none; margin:0px;padding:0px">
+<div id="contents" class="contents_" style="border-style:none; padding:0px;">
+<img src="athens.jpeg" alt="" width=100% style="float:none; margin:0px;">
 </div>
 <footer>
 <p style="text-align:center">Copyright &copy; 樊智猛, All rights reserved.</p>
