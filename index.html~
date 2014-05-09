@@ -18,14 +18,13 @@
 <td><b><a href="math.html">数学之美</a></b></td>
 <td><b><a href="computing.html">计算科学</a></b></td>
 <td><b><a href="ee.html">技术掠影</a></b></td>
-<td><b><a href="persons.html">他山之石</a></b></td>
 </tr>
 </table>
 </div>
 
 
 <div id="contents" class="contents_" style="border-style:none">
-<img src="athens.jpeg" alt="" width=100% style="float:none;margin:0px">
+<img src="athens.jpeg" alt="" width=102% style="float:none;margin:0px">
 </div>
 <footer>
 <p style="text-align:center">Copyright &copy; 樊智猛, All rights reserved.</p>

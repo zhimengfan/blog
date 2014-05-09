@@ -5,7 +5,7 @@ font-family:sans-serif;
 
 div#navigator{
 float:center;
-width:65%;
+width:62%;
 text-align:center;
 margin-left:auto;
 margin-right:auto;
@@ -14,7 +14,7 @@ margin-right:auto;
 div#contents{
 text-align:justify;
 float:center;
-width:64%;
+width:62%;
 margin-top:10px;
 margin-left:auto;
 margin-right:auto;
@@ -51,10 +51,10 @@ cite{
 font-family:KaiTi,monospace;
 }
 q{
-font-family:KaiTi;
+font-family:KaiTi,monospace;
 }
 quote{
-font-family:KaiTi;
+font-family:KaiTi,monospace;
 }
 ul{
 text-align:left;
