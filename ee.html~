@@ -26,7 +26,7 @@
 </div>
 
 <div id="contents"  class="contents_">
-<h1>电气工程</h1>
+<h1>技术掠影</h1>
 
 <div id="motto", class="motto_">
 <p><q>\(X(f)=\int_{-\infty}^\infty x(t)\mathrm{e}^{-j2\pi f t}\mathrm{d}t\), \(\ \ x(t)=\int_{-\infty}^\infty X(f)\mathrm{e}^{j2\pi f t}\mathrm{d}f.\)</q></p>

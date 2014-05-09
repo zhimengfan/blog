@@ -1,11 +1,11 @@
 body{
 background-color:#edb;
-
+font-family:sans-serif;
 }
 
 div#navigator{
 float:center;
-width:67%;
+width:65%;
 text-align:center;
 margin-left:auto;
 margin-right:auto;
@@ -14,7 +14,7 @@ margin-right:auto;
 div#contents{
 text-align:justify;
 float:center;
-width:66.5%;
+width:64%;
 margin-top:10px;
 margin-left:auto;
 margin-right:auto;
@@ -48,13 +48,13 @@ text-align:left;
 margin-bottom:2%;
 }
 cite{
-font-family:KaiTi;
+font-family:KaiTi,monospace;
 }
 q{
-font-family:KaiTi;
+font-family:KaiTi,monospace;
 }
 quote{
-font-family:KaiTi;
+font-family:KaiTi,monospace;
 }
 ul{
 text-align:left;
