@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>工程书籍中常见的一个纰漏</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css">
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+
+<body>
+<div id="navigator" class="navigator_" >
+<table align="center">
+<tr>
+<td><b><a href="../about.html">关于本站</a></b></td>
+<td><b><a href="../old_day.html">似水流年</a></b></td>
+<td><b><a href="../wuxia.html">笑傲江湖</a></b></td>
+<td><b><a href="../on_the_road.html">闲情偶寄</a></b></td>
+<td><b><a href="../latex.html">排版艺术</a></b></td>
+<td><b><a href="../math.html">数学之美</a></b></td>
+<td><b><a href="../computing.html">计算科学</a></b></td>
+<td><b><a href="../ee.html">技术掠影</a></b></td>
+</tr>
+</table>
+</div>
+
+<div id="contents" ,class="contents_">
+<h2>工程书籍中常见的一个纰漏</h2>
+<p style="text-align:right"> 2014/05/14</p>
+<p>工程书籍和理论书籍最大的一个不同点恐怕就是工程书籍的不严谨性，这缘于工程领域的人一般数学不是很好，并且他们更关注的是技术的实现，而不是繁琐的数学推导。只有少数人才能真正地上升到<i>应用研究</i>的高度，比如Shannon就是一个典型的代表，正因此，他的<i>信息论(Information Theory)</i>产生了一大批的追随者。在这里，给出一个工程书籍中比较常见的一个纰漏（也算不上错误）。</p>
+<p>这个纰漏是这样的，目前我所看到的所有(英文的)工程书籍, 包括Proakis, Haykin, Goldsmith等人的书籍，都会认为
+\[
+\lim_{N\to\infty}\int_{-NT}^{NT}f(x)\mathrm{d}x=\int_{-\infty}^{\infty}f(x)\mathrm{d}x,
+\]
+其中，\(T\in \mathbb{R}^+,\ N\in\mathbb{Z}^+\).
+乍一看上去，这个等式似乎确实是正确的，但是我们可以立刻给出一个反例：
+\[
+\lim_{N\to\infty}\int_{-N(2\pi)}^{N(2\pi)}\cos(x)\mathrm{d}x\neq\int_{-\infty}^{\infty}\cos(x)\mathrm{d}x,
+\]
+因为，等式左边积分存在，并且为0,但是右边却是发散的。
+\[
+\lim_{N\to\infty}\int_{-N(2\pi)}^{N(2\pi)}\cos(x)\mathrm{d}x=\lim_{N\to\infty}0=0,
+\]
+
+\[
+\int_{-\infty}^{\infty}\cos(x)\mathrm{d}x=\sin(x)|_{-\infty}^\infty\not\to.
+\]
+
+现在我们看到了，这个等式其实是不对的。那么原因在哪里呢？ 事实上，考察这个函数
+\[
+F(a)\stackrel{\tiny\triangle}{=}\int_{-a}^af(x)\mathrm{d}x,
+\]
+那么上面的问题就归结为\(\lim_{a\to\infty}F(a)\)和\(\lim_{N\to\infty}F(NT)\)两者是否相等的问题了。根据Bolzano-Weirstrass定理，连续情形的极限存在能够保证任意离散情形的极限也存在，但是单个离散情形的极限存在却不能保证连续情形的极限存在。于是，存在这样的可能，\(\lim_{N\to\infty}F(NT)\)存在，但是\(\lim_{a\to\infty}F(a)\)却 不存在。这个时候等号就是不成立的了。
+
+<p>当然，正如标题所言，这算不上是一个错误，只能说是一个纰漏。因为对于实际工程问题，我们所遇到的函数几乎都是\(\mathcal{L}^2\)函数，至少也是\(\mathcal{L}^1\)函数。即它是平方可积的，或者至少是绝对可积的。在这种情形下，我们能够提前保证
+\[
+\int_{-\infty}^{\infty}f(x)\mathrm{d}x
+\]
+存在(在柯西主值的意义下存在就够了)。于是，必然可以提前确认两者都是收敛的，因而也就是相等的。</p><p>尽管如此，从数学的观点来看，这么做还是很<b>危险</b>的！我觉得还是尽量避免这么做为好，最好能够事先说明一下无穷限的反常积分的存在性为好
+</div>
+</body>
+</html>
+
