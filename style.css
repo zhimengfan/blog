@@ -1,5 +1,5 @@
 body{
-background-color:#edb;
+background-color:#D5CFF9;
 font-family:sans-serif;
 }
 
@@ -12,14 +12,17 @@ margin-right:auto;
 }
 
 div#contents{
+background-color:#edb;
 text-align:justify;
 float:center;
 width:61%;
 margin-top:10px;
 margin-left:auto;
 margin-right:auto;
-border-style:solid;
-border-width:thin;
+/*border-style:solid;*/
+/*border-width:thin;*/
+box-shadow:3px 3px gray;
+border-radius:1em;
 padding:5px;
 }
 div#motto{
@@ -63,6 +66,7 @@ img{
 float:left;
 margin-right:3px;
 margin-bottom:2px;
+border-radius:1em;
 }
 
 table{
