@@ -1,5 +1,5 @@
 body{
-background-color:#D5CFF9;
+background-color: #FFFFB5;
 font-family:sans-serif;
 }
 
@@ -84,12 +84,10 @@ float:center;
 th{
 border-style:solid;
 border-width:thin;
-border-radius:.5em;
 }
 td{
 border-style:solid;
 border-width:thin;
-border-radius:.5em;
 
 }
 td:hover{
