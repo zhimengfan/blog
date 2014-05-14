@@ -74,12 +74,12 @@ border-top-style:double;
 border-bottom-style:double;
 border-width:thin;
 width:100%;
+background-color:#edb;
 }
 
 tr{
 height:30px;
 float:center;
-
 }
 th{
 border-style:solid;

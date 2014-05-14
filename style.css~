@@ -74,22 +74,24 @@ border-top-style:double;
 border-bottom-style:double;
 border-width:thin;
 width:100%;
+background-color: #FFFFCA;
 }
 
 tr{
 height:30px;
 float:center;
-
+background-color: #FFFFCA;
 }
 th{
 border-style:solid;
 border-width:thin;
-border-radius:.3em;
+border-radius:.2em;
+background-color: #FFFFCA;
 }
 td{
 border-style:solid;
 border-width:thin;
-border-radius:.3em;
+border-radius:.2em;
 }
 td:hover{
 background-color:orange;
