@@ -84,11 +84,12 @@ float:center;
 th{
 border-style:solid;
 border-width:thin;
+border-radius:.2em;
 }
 td{
 border-style:solid;
 border-width:thin;
-
+border-radius:.2em;
 }
 td:hover{
 background-color:orange;
