@@ -21,7 +21,6 @@
 <td><b><a href="math.html">数学之美</a></b></td>
 <td><b><a href="computing.html">计算科学</a></b></td>
 <td><b><a href="ee.html">技术掠影</a></b></td>
-<td><b><a href="persons.html">他山之石</a></b></td>
 </tr>
 </table>
 </div>
@@ -37,6 +36,7 @@
 <p>
 <ul>
 <li><a href="computing/app.html">怎么读App?</a></li>
+<li><a href="computing/ecom.html">为什么说网银不安全?</a></li>
 </ul>
 </p>
 
