@@ -80,6 +80,7 @@ height:30px;
 float:center;
 }
 th{
+font-weight:bold;
 border-style:solid;
 border-width:thin;
 border-radius:.2em;
