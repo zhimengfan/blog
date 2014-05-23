@@ -1,8 +1,11 @@
 body{
 font-family:sans-serif;
 background-color: #edb;
-font-family:sans-serif;
+margin-left:auto;
+margin-right:auto;
 }
+
+
 
 div#navigator{
 float:center;
@@ -21,8 +24,6 @@ margin-left:auto;
 margin-right:auto;
 border-style:solid;
 border-width:1px;
-/*box-shadow:3px 3px gray;*/
-/*border-radius:1em;*/
 padding:5px;
 }
 div#motto{
@@ -88,6 +89,7 @@ border-radius:.2em;
 }
 td{
 border-style:solid;
+font-weight:bold;
 border-width:thin;
 border-radius:.2em;
 }
