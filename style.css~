@@ -5,7 +5,20 @@ margin-left:auto;
 margin-right:auto;
 }
 
-
+div#header{
+font-weight:bold;
+font-size:50px;
+margin-top:0px;
+margin-bottom:0px;
+float:center;
+width:62%;
+text-align:left;
+margin-left:auto;
+margin-right:auto;
+/*border-style:solid;*/
+/*border-width:thin;*/
+background: linear-gradient(to left,#edb,white);
+}
 
 div#navigator{
 float:center;
@@ -13,7 +26,6 @@ width:62%;
 text-align:center;
 margin-left:auto;
 margin-right:auto;
-background-image:url("grass.jpg");
 }
 
 div#contents{

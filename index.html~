@@ -12,10 +12,9 @@ width:62%;
 </head>
 <body>
 
-<div id="header" >
-<img src="grass.jpg" alt="" width=100% style="float:none">
+<div id="header" class="header_">
+<h1>LOFT</h1>
 </div>
-
 <div id="navigator" class="navigator_"  >
 <table align="center" >
 <tr>
