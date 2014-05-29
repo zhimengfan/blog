@@ -47,6 +47,10 @@ border-radius:1em;
 height:95px;
 }
 
+div#clustrmaps-widget{
+float:center;
+}
+
 h1{
 font-size:30px;
 text-align:left;

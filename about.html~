@@ -7,6 +7,9 @@
 </head>
 
 <body>
+<div id="header" class="header_">
+LOFT
+</div>
 <div id="navigator" class="navigator_" >
 <table align="center">
 <tr>
@@ -49,9 +52,17 @@
 <li>2014/04/21，在<code>GitHub</code> 上搭建网站，并确立网站基本构架和风格定位。</li>
 <li>2014/04/23，添加少量文章</li>
 <li>2014/04/26，网页html 代码嵌入MathJax脚本，提供数学公式输出</li>
+<li>2014/05/29, 添加ClustrMaps</li>
 </ul> 
 
+<h2>ClustrMaps</h2>
+<div id="clustrmaps-widget"><script type="text/javascript">var _clustrmaps = {'url' : 'http://zhimengfan.github.io/blog', 'user' : 1144671, 'server' : '3', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2014-05-29', 'lang' : 'zh', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www3.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www3.clustrmaps.com/user/67311775f"><img src="http://www3.clustrmaps.com/stats/maps-no_clusters/zhimengfan.github.io-blog-thumb.jpg" width=400px alt="Locations of visitors to this page"  /></a></noscript>
 </div>
+
+
+</div>
+
+
 
 <footer>
 <p style="text-align:center">Copyright &copy; 樊智猛, All rights reserved. <a href="index.html">返回首页</a></p>
