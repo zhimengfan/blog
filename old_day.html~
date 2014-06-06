@@ -7,6 +7,9 @@
 </head>
 
 <body>
+<div id="header" class="header_">
+LOFT
+</div>
 <div id="navigator" class="navigator_" >
 <table align="center">
 <tr>
@@ -31,6 +34,7 @@
 </div>
 <ul>
 <li><a href="ages/how_long.html">一辈子能有多长</a></li>
+<li><a href="ages/cee.html">
 </ul>
 
 </div>

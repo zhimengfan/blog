@@ -13,7 +13,7 @@ width:62%;
 <body>
 
 <div id="header" class="header_">
-<h1>LOFT</h1>
+LOFT
 </div>
 <div id="navigator" class="navigator_"  >
 <table align="center" >
@@ -32,7 +32,7 @@ width:62%;
 
 
 <div id="contents" class="contents_" style="border-style:none; padding:0px;box-shadow:0 0 white;">
-<img src="sunflower.jpg" alt="" width=100% style="float:none; margin:0px;border-radius:1em;">
+<img src="pan2.png" alt="" width=100% style="float:none; margin:0px;border-radius:1em;">
 </div>
 <footer>
 <p style="text-align:center">Copyright &copy; 樊智猛, All rights reserved.</p>
