@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MeasureTheory</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css">
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+
+<body>
+<div id="header" class="header_">
+LOFT
+</div>
+<div id="navigator" class="navigator_" >
+<table align="center">
+<tr>
+<td><b><a href="../about.html">关于本站</a></b></td>
+<td><b><a href="../old_day.html">似水流年</a></b></td>
+<td><b><a href="../wuxia.html">笑傲江湖</a></b></td>
+<td><b><a href="../on_the_road.html">闲情偶寄</a></b></td>
+<td><b><a href="../latex.html">排版艺术</a></b></td>
+<td><b><a href="../math.html">数学之美</a></b></td>
+<td><b><a href="../computing.html">计算科学</a></b></td>
+<td><b><a href="../ee.html">技术掠影</a></b></td>
+</tr>
+</table>
+</div>
+
+<div id="contents" ,class="contents_">
+<h2>测度论自学笔记</h2>
+<p style="text-align:right">2014/06/14</p>
+<p>测度论(Measure Theory)是数学分析(Mathematical analysis)的一个分支，也是它的基础。尽管在本科的数学课上学了微积分，但是现在来看其中的很多东西是不严谨的，比如Riemann积分的存在性及其证明，这在本科的“高等数学”中并没有涉及到。不难看出，本科的高等数学出发点是为了教会我们怎么使用微积分进行计算，却不大在意其中的严密性。</p>
+<p>作为一个工科学生，同时也比较对数学感兴趣，在学习本专业的过程中逐渐发现一些领域内的大牛无一例外都是数学水平很高的人。很多问题的分析，推导仅仅靠微积分往往是行不通的。我渐渐的意识到了自己在数学上的不足，于是产生了要强化自己的数学能力的想法。就测度论而言，最早接触到它是在Terence Tao的《Analysis》中，但是当时并没有去学习这部分的内容。后来，在处理本专业的一些问题的过程中也确实没有发现使用到测度论的知识。再往后，看了Gallager的《Principles of Digital Communications》。在这本书中Gallager反传统的在书中用较大篇幅介绍了测度论的基本概念以及Lebesgue积分。之所以说Gallager这本书是反传统的，原因在于一般的工程书籍中几乎绝对肯定地，不会介绍如此数学化的东西。Gallager能够这样去做是因为他本人是搞理论的，他师从信息论(Information Theory)的鼻祖Claude Shannon，自己的主要研究方向也是信息论。Gallager站在一个理论家的角度来阐述他对于数字通信的数学原理的个人见解，使得这本书不是一本普通的工程书籍。</p>
+<p>在后来，在Proakis的《Digital Communications》一书中再次遇到了与测度论有关的东西。其中有一处，就是在计算多载波通信的信道容量的时候，要使用变分法(Calculus of Variation)来求最优的功率谱密度函数\(P_{opt}(f)\)。变分法是泛函分析(Functional analysis)的重要内容，但是泛函分析需要测度论为基础，因此这意味着我需要先学习测度论，然后再学习泛函分析，才能够理解变分法的思想。在这种想法的驱动下，我开始自学测度论。</p>
+<p>坦白的说，测度论比微积分难很多，因为它毕竟是最近一百多年才发展起来的一个数学理论。此外，关于测度论这方面的书籍也非常少。几经查找，我先是找来了Terence Tao 的《Introduction to measure theory》。Tao的这本书的起点很好，先从最基本的初等集(Elementary Set)来开始，定义它的测度，然后发展到Jordan测度(Jordan Measure)，以及Jordan 可测(Jordan Measurability)的概念。并且证明了Jordan 可测与Riemann 可积是等价的，更进一步，一个函数的Riemann积分就是这个函数与坐标所围成的区域的Jordan 测度。这个结论非常有启发性，因为它揭示了测度与积分理论之间的密切关系。但是Tao的这本书的问题在于它是由Tao的博客文章汇编而成的，因此衔接性较差，而且里面很多证明过程都省去了，把它们作为练习。这对于一个初学者来讲是非常吃力的。后来找来了Elias Stein的《Real analysis》第三卷：《Measure theory,Lebesgue integration and Hilbert space》，这本书比Tao的那本书虽然少了初等测度和Jordan测读的内容，但是后面的内容讲得很详细，这两本书刚好能够形成互补。有意思的是Elias Stein是Tao在Princeton 读博士的时候那会儿的导师，同时拜读他们师徒二人的大作，真是一个意外的巧合！</p>
+<p>然后，我们发现很多集合仍然不是Jordan 可测的，于是我们再次进化到Lebesgue测度。Lebesgue测度比Jordan测度好多了，能够处理很多前者不可测的集合。由此产生一个很自然的疑问，有没有一个测度，使得任意集合在这个测度下都是可测的呢？答案是否定的，不存在这样的测度！Lebesgue测度是性能很好的测度，我们现实中遇到的集合基本上都可以用它来处理。于是Lebesgue测度被广为接受、广泛使用。既然不存在对任意集合都可测的测度，我们就需要区分哪些集合是可测的，哪些是不可测的。这就是可测性的概念。为了达到这个目的，我们先定义了外测度(Outer Measure)，然后用外测度去定义Lebesgue可测性，一旦某个集合是可测的，那么它的Lebesgue测度就是外测度。</p>
+<p>Lebesgue测读具有很多我们期望的优良的性质。比如所有开集都是可测的，所有闭集也都是可测的，可测集的可数并、可数交、补也是可测的集合。零外测度的集合也是可测的，而且它就是0。于是我们得出：可数个开集的交，即\(G_\delta\)集合也是可测的，它的补\(F_\sigma\)也是可测的。</p>
+<p>定义了Lebesgue测度之后，我们可以用简单函数(Simple function)去几乎处处(Almost everywhere)逼近任意一个函数。有了这个想法之后，我们可以定义Lebesgue积分了。有了Lebesgue积分，我们就可以处理很多Riemann 不可积的函数，比如Dirichlet函数。这一切都符合我们事先对测度（长度，面积，体积等概念）的直觉。因此，这个理论建立是成功的。</p>
+<p>最后，我想提一下一个有趣的定理：Fubini定理。这个定理告诉我们如果一个多变量的函数是Lebesgue可积的，那么可以将重积分化为逐次的单积分，而且可以交换积分次序。这是一个非常基础也非常有用的定理。很多情况下我们在不知不觉地使用它，比如证明Fourier变换的卷积定理的时候，我们使用了交换积分次序的技巧，但是这是不严谨的。但是，如果那两个函数都是\(\mathcal{L}^1\)函数的话，我们可以用Fubini定理来说明，积分次序确实是可以交换的。</p>
+</div>
+</body>
+</html>
